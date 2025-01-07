@@ -1,0 +1,47 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_form {
+    max-width: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.search_form input {
+    margin-right: 10px;
+    width: 50%;
+}
+
+.noposts {
+    text-align: center;
+}
+
+.noposts p {
+    margin-bottom: 1.5em;
+}
+
+.noposts a {
+    padding: 10px 25px;
+}
+
+.post_list > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #59723d solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* depois */
+.btn-dark {
+    background-color: #000;
+    border-radius: 0;
+}
